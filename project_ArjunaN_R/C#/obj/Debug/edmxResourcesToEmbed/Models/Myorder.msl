@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StoreManagementModel2StoreContainer" CdmEntityContainer="StoreManagementEntities4">
+    <EntitySetMapping Name="Myorders">
+      <EntityTypeMapping TypeName="StoreManagementModel2.Myorder">
+        <MappingFragment StoreEntitySet="Myorder">
+          <ScalarProperty Name="Oid" ColumnName="Oid" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="TUserid" ColumnName="TUserid" />
+          <ScalarProperty Name="Pname" ColumnName="Pname" />
+          <ScalarProperty Name="Pquality" ColumnName="Pquality" />
+          <ScalarProperty Name="Pcount" ColumnName="Pcount" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

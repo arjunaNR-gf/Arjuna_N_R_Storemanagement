@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreManagementModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Mystock">
+    <Key>
+      <PropertyRef Name="PId" />
+    </Key>
+    <Property Name="PId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Userid" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Pname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Pcount" Type="Int32" />
+    <Property Name="Pquality" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="Mdate" Type="DateTime" Precision="0" />
+    <Property Name="Edate" Type="DateTime" Precision="0" />
+    <Property Name="Price" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="StoreManagementEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Mystocks" EntityType="Self.Mystock" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,559 @@
+.dv-menu
+{
+    display: flex;
+}
+
+
+
+.dv-link-menu
+{
+    margin-left:65%;
+}
+
+.l1
+{
+    margin-left: 6%;
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+}
+
+.l1:hover
+{
+    margin-left:6%;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+
+.mybtn
+{
+    display:flex;
+    width: 20%;
+    margin-left: 45%;
+
+}
+
+.tr-heading
+{
+    background-color:rgb(240, 240, 241) ;;
+    color: black;
+    padding:2px;
+    font-size:12px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trr-heading
+{
+    width:100%;
+    height: auto;
+    background-color:white;
+    color: black;
+    padding:8px;
+    font-size:18px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table
+{
+    margin-left:4%;
+    width:93%;
+    margin-top: 10%;
+    align-content: center;
+    text-align: center;
+    font-size:16px;
+    background-color: white;
+    border-collapse: collapse;
+    font-family:  'Times New Roman';
+}
+
+
+
+
+
+
+td{
+
+    border: 1%;
+    color: black;
+}
+
+
+
+tr:hover{
+
+    border: 1%;
+    background-color:rgb(240, 240, 241) ;
+}
+.btn
+{
+    width:80%;
+    height: auto;
+    padding:0.1%;
+    font-size:18px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover
+{
+    width:80%;
+    height: auto;
+    padding:0.1%;
+    font-size:18px;
+    background-color:rgb(0,128,128);
+    color: white;
+    border: 1px solid black;
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.tablelog
+{
+    float: right;;
+    width:30%;
+    padding:8px;
+    margin-top: 2%;
+    margin-left: 45%;
+    align-content: center;
+    text-align: center;
+    margin-bottom:2% ;
+    background-color:white;
+    border:2px solid lavender;
+    font-family: 'Times New Roman';
+}
+
+.btn1
+{
+    width: 35%;
+    height: auto;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+    
+}
+
+.btn1:hover
+{
+    width: 35%;
+    height: auto;
+    font-size: 16px;
+    background-color:rgb(10, 85, 85);
+    color:white;
+    border: 1px solid black;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tab1
+{
+    display: none;
+
+}
+
+.tab{
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-family:'Times New Roman';
+    
+}
+
+.tab input[type=text]
+{
+    width: 80%;
+    height:30px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    font-family:'Times New Roman';
+    
+    
+
+}
+
+.tab input[type=text]:hover
+{
+    width: 80%;
+    height:30px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    font-family:'Times New Roman';
+    
+    
+
+}
+
+.tabb input[type=text]
+{
+    width: 80%;
+    height:30px;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 10%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    border:2px solid rgb(212, 212, 247);
+    font-family: 'Times New Roman';
+    
+    
+
+}
+
+
+
+.tabb input[type=text]:hover
+{
+    width: 80%;
+    height:30px;
+    background-color:white;
+    margin-top: 5%;
+    margin-left: 10%;
+    color:black;
+    font-size:16px;
+    font-family:'Times New Roman';
+    text-align: center;
+    
+    
+
+}
+
+
+.tabbfile
+{
+    border: none;
+    margin-left: 10%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    
+    
+
+}
+
+.tabb
+{
+    
+    background-color: white;
+    width:40%;
+    height: auto;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    margin-left:35%;
+    margin-bottom: 3%;
+    border: 2px solid rgb(230, 230, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn2
+{
+    width:35%;
+    height: auto;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 30%; 
+    margin-bottom: 4%;
+    border: 0.1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+    
+}
+
+.btn2:hover
+{
+    width: 35%;
+    height: auto;
+    font-size: 16px;
+    background-color:rgb(15, 116, 116);
+    color: white;
+    border: none;
+    margin-top: 5%;
+    margin-left: 30%; 
+    margin-bottom: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lable-menu
+{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.btn3
+{
+    width:100%;
+    height: auto;
+    padding:1% 5% 1% 5%;
+    font-size:18px;
+    background-color:rgb(212, 212, 252);
+    color:black;
+    border: 1px solid black;
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn3:hover
+{
+    width:100%;
+    height: auto;
+    padding:1% 5% 1% 5%;
+    font-size:18px;
+    background-color:rgb(0, 175, 175);
+    color:white;
+    border:1px solid rgb(2, 160, 160);
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+p{
+    color: red;
+    margin-top: 2px;
+    margin-left: 1%;
+}
+
+.form-control
+{
+    background-color:white;
+    color:black;
+    border: 1px solid rgb(0,128,128);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-control:hover
+{
+    background-color:lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.icons-menuIu
+{
+    margin-top: 10%;
+    background-color: rgb(240, 240, 252);
+    color:rgb(6, 148, 148);
+    width:8%;
+    font-size:large;
+    
+}
+
+.close
+{
+    margin-Left:44%;
+    border:none;
+    color:black;
+    height: inherit;
+    background-color: white;
+   
+
+    
+
+}
+
+
+.close:hover
+{
+    margin-Left:44%;
+    border:none;
+    border-radius: 16px;
+    background-color:rgb(7, 175, 175);
+    color: white;
+    
+}
+
+.input-grid
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 1%;
+}
+
+.tabb1
+{
+    
+
+    margin-left: 4%;
+    width:93%;
+    height: auto;
+    background-color:white;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    border-bottom:1px solid rgb(3, 168, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.tabb1 input[type=text]
+{
+    width: 93%;
+    height:35px;
+    background-color:white;
+    margin-top: 5%;
+    margin-left: 4%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    border:1px solid  rgb(2, 173, 173);
+    font-family: 'Times New Roman';
+    text-align: center;
+    
+    
+
+}
+
+
+
+.tabb1 input[type=text]:hover
+{
+    width: 93%;
+    height:35px;
+    border:1x solid lavender;
+    background-color: rgb(243, 243, 252);
+    margin-top: 5%;
+    margin-left: 4%;
+    color:black;
+    font-size:18px;
+    font-family:'Times New Roman';
+    text-align: center;
+    
+    
+
+}
+
+.btn4
+{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    background-color:rgb(3, 161, 161);
+    color:black;
+    border:1px solid rgb(3, 161, 161);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 3%;
+    
+}
+
+
+.btn4:hover
+{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    background-color:rgb(4, 129, 129);
+    color:white;
+    border:1px solid rgb(3, 161, 161);
+    font-size: 15px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 3%;
+   
+    
+}
+
+input[type=date]
+{
+    width: 93%;
+    height:35px;
+    background-color:white;
+    margin-top: 5%;
+    margin-left: 4%;
+    color:black;
+    font-size:16px;
+    text-align: center;
+    border:1px solid  rgb(2, 173, 173);
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.tabtop
+{
+    float: right;
+    width: 32%;
+    height: auto;
+    padding: 2%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.table1
+{
+    display: none;
+}
+
+.cls-delete
+{
+    color:blue;
+}
+.cls-delete:hover
+{
+    color: red;
+}
+
+.profileimg
+{
+margin-Left:"100%";
+display:"flex";
+font-Size:"17px";
+margin-Top:"7%";
+font-Family:"Time New Roman";
+}
+
+.profil-pic:hover
+{
+   background-color: lavender;
+}
+
+.profile-home
+{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+}
+
+.pageprofile
+{
+
+    width: 40%;
+    height:auto;
+    margin-top:10%;
+    padding: 2%;
+    margin-left: 25%;
+    background: white;
+    border: 0.1px solid red;
+    box-shadow: 5px 10px 30px -5px rgba(0,0,0,0.4);
+    align-items: center;
+}
+
+.pp{
+    display: none;
+}

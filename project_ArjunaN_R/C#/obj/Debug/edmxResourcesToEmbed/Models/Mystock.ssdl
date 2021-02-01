@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreManagementModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Mystock">
+    <Key>
+      <PropertyRef Name="PId" />
+    </Key>
+    <Property Name="PId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Userid" Type="varchar" MaxLength="10" />
+    <Property Name="Pname" Type="varchar" MaxLength="50" />
+    <Property Name="Pcount" Type="int" />
+    <Property Name="Pquality" Type="varchar" MaxLength="4" />
+    <Property Name="Mdate" Type="date" />
+    <Property Name="Edate" Type="date" />
+    <Property Name="Price" Type="float" />
+  </EntityType>
+  <EntityContainer Name="StoreManagementModel1StoreContainer">
+    <EntitySet Name="Mystock" EntityType="Self.Mystock" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

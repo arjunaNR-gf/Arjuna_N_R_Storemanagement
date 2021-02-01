@@ -1,0 +1,229 @@
+.logdv
+{
+  width: 100%;
+  height: auto;
+  display:flex;
+  align-content: center;
+  
+  
+
+
+  
+}
+
+.logdv2 input[type=text]
+{
+    width: 80%;
+    height:35px;
+    background-color: transparent;
+    border:rgb(0,128,128);
+    margin-top:10%;
+    color:black;
+    font-size:16px;
+    border-bottom: 1px solid rgb(0,128,128);
+    text-align: center;
+    font-family:  'Times New Roman';
+
+    
+
+}
+.logdv2  input[type=text]:hover
+{
+    width: 80%;
+    height:35px;
+    background-color:white;
+    margin-top: 10%;
+    color:black;
+    font-size:16px;
+    border-bottom: 2px solid rgb(0,128,128);
+    text-align: center;
+    font-family: 'Times New Roman';
+    
+}
+
+
+
+
+.bt
+{
+    width: 50%;
+    height: 40px;
+    background-color:transparent;
+    color:black;
+    margin-top: 10%;
+    font-size: 16px;
+    text-align: center;
+    border:1px solid  rgb(1, 221, 221);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.bt:hover
+{
+    
+    width: 50%;
+    height: 40px;
+    background-color: rgb(13, 155, 155);
+    color:white;
+    margin-top:10%;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 29px -9px rgba(0,0,0,0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.logdv1
+{
+    background-color:transparent;
+    width:65%;
+    height: 630px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 13%;
+    padding: 2% 2% 2% 2%;
+}
+
+.logdv2
+{
+    background-color:white;
+    width:35%;
+    padding:7px;
+    color: black;   
+}
+
+.icons-menu
+{
+    margin-top: 10%;
+    background-color: white;
+    color: black;
+    width:8%;
+    font-size:large;
+    padding-left:2px;
+    
+}
+
+.form-control
+{
+    margin-top: 10%;
+    border-radius: 1px;
+
+}
+
+.pp1
+{
+    
+    color: red;
+    margin-top: 2px;
+}
+
+.PI-menu
+{
+    color: red;
+    font-size: 300%;
+}
+
+.PII-menu{
+    font-size: 50%;
+}
+
+.login-outlayer
+{
+    width:80%;
+    height: auto;
+    margin-top:25%;
+    padding: 0 0 10% 0;
+    background-color:white;
+    color: white;
+    margin-left: 12%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    
+}
+
+.login-outlayer:hover
+{
+    width:80%;
+    height: auto;
+    margin-top:25%;
+    padding: 0 0 10% 0;
+    background-color:white;
+    color: white;
+    margin-left: 12%;
+    text-align: center;
+    border:1px solid lavender;
+    box-shadow: 10px 10px 70px -15px rgba(0,0,0,0.2);
+    
+}
+
+.sub
+{
+    color:white;
+    margin-left: 3%;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+ul
+{
+    list-style-type:none;
+    color:white;
+    margin-top: 4%;
+    margin-left: 8%;
+    font-size: 16px;
+    font-family:'Times New Roman';
+}
+
+.img-grd
+{
+    display: grid;
+    width: 99%;
+    height: auto;
+    grid-template-columns:40% 40%;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top:1%;
+    margin-left: 5px;
+  
+
+}
+
+.img-sub
+{
+    background-color:white;
+    margin: 1%;
+    padding:1px;
+   
+}
+
+.img-size
+{
+    width: 480px;
+}
+
+
+
+h6{
+    color: rgb(171, 245, 22);
+    font-size: 20px;
+    color: black;
+}
+
+.footer-bottom
+{
+    width:100%;
+}
+
+
+
+
+
+
+
